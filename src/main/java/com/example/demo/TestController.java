@@ -8,6 +8,11 @@ import jakarta.servlet.http.HttpServletRequest;
 public class TestController {
     @GetMapping(path = "/test")
     public String getTest(HttpServletRequest request) {
-        return "Hello World!";
+   
+    	System.out.println("Hello");
+    	
+    	return "Hello World!";
     }
+    
+   
 }
